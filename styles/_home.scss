@@ -1,3 +1,8 @@
+@mixin flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
 .home {
   background: radial-gradient(#525252, #131313);
 }
@@ -10,16 +15,17 @@
 }
 
 nav {
+  @include flexSpaceBetween();
+
   width: 80%;
   margin: auto;
   min-height: 10vh;
   padding: 3rem 0rem;
-  display: flex;
-  justify-content: space-between;
+
   align-items: center;
   ul {
-    display: flex;
-    justify-content: space-between;
+    @include flexSpaceBetween();
+
     flex: 1;
     list-style: none;
   }
