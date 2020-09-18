@@ -1,0 +1,1 @@
+This HTML/CSS project was done, following [Dev Ed's tutorial](https://www.youtube.com/watch?v=2IjyqauKumE). It showcases a top-to-bottom scrolling webpage of three sections that display a leica camera.
